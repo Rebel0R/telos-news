@@ -1,0 +1,12 @@
+.read-more {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 1120px;
+  margin: 60px auto 40px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #fef7ff;
+  gap: 40px;
+  border-radius: 12px;
+}
