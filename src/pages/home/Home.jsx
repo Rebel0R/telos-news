@@ -4,6 +4,7 @@ import Card from "../../components/card/Card";
 import MiniCard from "../../components/mini-card/MiniCard";
 import Footer from "../../components/footer/Footer";
 import "./Home.css";
+import BigCard from "../../components/big-card/BigCard";
 
 export default function Home() {
   return (
@@ -15,6 +16,10 @@ export default function Home() {
           <MiniCard />
           <MiniCard />
         </div>
+      </div>
+      <div className="content-cards2">
+        <BigCard />
+        <BigCard />
       </div>
       <Footer />
     </div>
