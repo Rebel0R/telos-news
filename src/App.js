@@ -2,6 +2,7 @@ import Card from "./components/card/Card";
 import Header from "./components/header/Header";
 import MiniCard from "./components/mini-card/MiniCard";
 import "./AppStyle.css";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <MiniCard />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
