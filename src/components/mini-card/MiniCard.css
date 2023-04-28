@@ -1,0 +1,41 @@
+.minicard-box {
+  margin-top: 20px;
+  background-color: #f7f2fa;
+  border-radius: 18px;
+  width: 340px;
+  height: 290px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.minicard-box img {
+  width: 340px;
+  height: auto;
+}
+
+.minicard-title {
+  color: #49454f;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 22px;
+  position: relative;
+  top: -100px;
+  margin-left: 15px;
+}
+.minicard-button {
+  position: relative;
+  top: -80px;
+  margin-left: 15px;
+  padding: 10px 22px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 180px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #6750a4;
+  border: 2px solid transparent;
+}
+
+.minicard-button:hover {
+  border: 2px solid #483185;
+}
