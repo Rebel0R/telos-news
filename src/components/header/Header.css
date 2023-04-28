@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 header {
-  padding: 20px 90px;
+  padding: 15px 60px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .navbar {
@@ -19,7 +19,7 @@ header {
   width: 156px;
   height: 42px;
   background-color: #f3edf7;
-  border: none;
+  border: 1px solid transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,6 +27,7 @@ header {
   position: relative;
   font-size: 16px;
   font-family: "Lato";
+  cursor: pointer;
 }
 
 .button-enter i {
