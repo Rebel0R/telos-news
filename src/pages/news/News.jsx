@@ -8,8 +8,6 @@ import { useParams } from "react-router-dom";
 export default function News() {
   const { id } = useParams();
   const currentNews = news.find((result) => result.id === id);
-  console.log("News:" + news);
-  console.log("ID:" + id);
 
   return (
     <div className="noticia">
