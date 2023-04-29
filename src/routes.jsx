@@ -8,7 +8,7 @@ export default function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route element={<Home />} path="/" exact />
-        <Route element={<News />} path="/noticia" />
+        <Route element={<News />} path="/news/:id" />
       </Routes>
     </BrowserRouter>
   );
