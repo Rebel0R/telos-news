@@ -1,0 +1,38 @@
+.big-card {
+  margin-top: 40px;
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fef7ff;
+  border-radius: 38px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.side-left {
+  margin-left: 33px;
+  position: relative;
+  bottom: -270px;
+}
+
+.big-card-title {
+  color: #49454f;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.big-card-button {
+  padding: 12px 22px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 180px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #6750a4;
+  border: 2px solid transparent;
+}
+
+.big-card-button:hover {
+  border: 2px solid #483185;
+}
