@@ -1,14 +1,15 @@
 import "./Banner.css";
 import React from "react";
 
-export default function Banner() {
+export default function Banner(props) {
+  const news = props.news;
   return (
     <div className="banner">
-      <img src="./images/not-img1.png" alt="Imagem Banner da Noticia" />
-      <p className="banner-title">Burnout: você sabe lidar com o esgotamento profissional?</p>
+      <img src={news.image} alt="Imagem Banner da Noticia" />
+      <p className="banner-title">{news.title}</p>
       <div className="details-news">
-        <p className="author">Autor: Fulano de Tal</p>
-        <p className="date">28/04/2023</p>
+        <p className="author">Autor: {news.author}</p>
+        <p className="date">{news.date}</p>
       </div>
     </div>
   );

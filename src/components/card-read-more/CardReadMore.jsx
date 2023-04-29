@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./CardReadMore.css";
 
 function CardReadMore(props) {
@@ -10,9 +11,11 @@ function CardReadMore(props) {
       <img src={singleNews.image} alt="Imagem referente ao leia também"></img>
       <p className="matter-title">{singleNews.subject}</p>
       <p className="matter-text">{singleNews.title}</p>
-      <button type="button" className="read-more-button">
-        ler agora
-      </button>
+      <Link to={`/news/${singleNews.id}`}>
+        <button type="button" className="read-more-button">
+          ler agora
+        </button>
+      </Link>
     </div>
   );
 }

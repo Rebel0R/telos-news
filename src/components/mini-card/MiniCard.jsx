@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./MiniCard.css";
 
 function MiniCard(props) {
@@ -7,7 +8,9 @@ function MiniCard(props) {
     <div className="minicard-box">
       <img src={singleNews.image} alt="Imagem da mini noticia"></img>
       <p className="minicard-title">{singleNews.title}</p>
-      <button className="minicard-button">Ler Agora</button>
+      <Link to={`/news/${singleNews.id}`}>
+        <button className="minicard-button">Ler Agora</button>
+      </Link>
     </div>
   );
 }

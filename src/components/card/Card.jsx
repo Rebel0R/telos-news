@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Card.css";
 
 function Card(props) {
@@ -10,12 +11,17 @@ function Card(props) {
         <p className="card-text">{singleNews.resume}</p>
       </div>
       <div className="card-buttons">
-        <button type="button" className="card-button" id="button-gray">
-          Saiba Mais
-        </button>
-        <button type="button" className="card-button" id="button-purple">
-          Leia Mais
-        </button>
+        <Link to={`/news/${singleNews.id}`}>
+          <button type="button" className="card-button" id="button-gray">
+            Saiba Mais
+          </button>
+        </Link>
+
+        <Link to={`/news/${singleNews.id}`}>
+          <button type="button" className="card-button" id="button-purple">
+            Leia Mais
+          </button>
+        </Link>
       </div>
     </div>
   );
