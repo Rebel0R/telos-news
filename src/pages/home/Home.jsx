@@ -8,7 +8,7 @@ import BigCard from "../../components/big-card/BigCard";
 
 export default function Home() {
   return (
-    <div className="home">
+    <body className="home">
       <Header />
       <div className="content-cards1">
         <Card />
@@ -22,6 +22,6 @@ export default function Home() {
         <BigCard />
       </div>
       <Footer />
-    </div>
+    </body>
   );
 }

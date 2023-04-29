@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Noticia from "./pages/noticia/Noticia.jsx";
+import Noticia from "./pages/news/News.jsx";
 import Home from "./pages/home/Home.jsx";
 
 export default function AppRoutes() {
